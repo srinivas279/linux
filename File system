@@ -1,0 +1,23 @@
+Linux file system has different files
+
+/boot --> Contains files that is used by the boot loader(grub.cfg)
+/root --> Root user home directory. It is not same as '/'
+/dev  --> System devices (eg: disk, cdrom, speakers)
+/etc  --> Configuration files
+/bin  --> Every day user commands
+(or) /usr/bin
+
+/sbin --> System/filesystem commands 
+(or) /usr/sbin
+
+/opt  --> optional add on applications (Not part of OS apps)
+/proc --> Running process (only exist in memory)
+/lib  --> C programming files needed by command & apps
+(or) /usr/lib   > strace -e open pwd
+
+/tmp  --> directory for temporary files
+/home --> directory for user
+/var  --> system logs
+/run  --> system daemons that start very early to store temporary runtime files.
+/mnt  --> To mount external filesystem 
+/media --> for CDROM mounts
