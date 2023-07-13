@@ -1,0 +1,4 @@
+Types of roots on linux systems:
+- Root Account : root user of the system
+- Root as '/' : This represent root of the file system 
+- Root home directory : Root user account also has a directory located in "/root"
